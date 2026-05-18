@@ -1,0 +1,13 @@
+SalesCard website fixed package
+
+Local preview:
+1. Open Terminal
+2. Run:
+   cd ~/Downloads/salescard_final_homepage_FIXED
+   python3 -m http.server 8080
+3. Open:
+   http://localhost:8080
+
+Render:
+- Build command: echo "Static site"
+- Publish directory: .
