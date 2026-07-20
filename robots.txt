@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sales-card.com/sitemap.xml
