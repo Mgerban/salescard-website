@@ -6,6 +6,7 @@
         "appID": "AYGX5HR8HN.com.pinglet.salescard",
         "paths": [
           "/reset-password",
+          "/verify-email-change",
           "/app/*"
         ]
       }
