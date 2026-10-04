@@ -3,3 +3,11 @@ services:
     name: salescard-website
     runtime: static
     staticPublishPath: .
+    headers:
+      - path: /.well-known/apple-app-site-association
+        name: Content-Type
+        value: application/json
+    routes:
+      - type: rewrite
+        source: /reset-password
+        destination: /reset-password/index.html

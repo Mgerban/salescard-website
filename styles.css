@@ -619,6 +619,41 @@ h3 {
   font-size: clamp(2.8rem, 6vw, 4.8rem);
 }
 
+.reset-fallback-hero {
+  min-height: calc(100vh - 76px);
+  padding: 88px 0;
+  background:
+    radial-gradient(circle at 15% 20%, #eee8ff, transparent 38%),
+    #faf9fd;
+}
+
+.reset-fallback-card {
+  max-width: 760px;
+  padding: clamp(32px, 7vw, 76px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.reset-fallback-card h1 {
+  margin-bottom: 24px;
+  font-size: clamp(2.8rem, 6vw, 4.8rem);
+}
+
+.reset-fallback-card p:not(.eyebrow) {
+  max-width: 600px;
+  color: var(--muted);
+}
+
+.reset-fallback-card .button {
+  margin-top: 18px;
+}
+
+.reset-fallback-footer {
+  border-top: 1px solid var(--line);
+}
+
 .legal-hero {
   border-bottom: 1px solid var(--line);
 }
