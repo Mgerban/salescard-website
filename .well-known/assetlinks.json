@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.salescard.sales_card",
+      "sha256_cert_fingerprints": [
+        "AA:F5:E3:B8:4B:3C:1E:C9:11:9E:DB:23:93:AF:D6:77:2A:ED:DF:EA:95:81:08:7D:C8:4A:8D:17:32:56:91:E5",
+        "4B:C6:90:D5:6D:7E:59:C1:CB:A9:61:26:D7:4E:B5:2E:01:80:DD:D2:7B:AB:4C:85:EA:9E:AF:5A:02:00:47:19"
+      ]
+    }
+  }
+]
